@@ -1,17 +1,13 @@
-//
-//  todoAppApp.swift
-//  todoApp
-//
-//  Created by Beyza Karadeniz on 14.03.2021.
-//
 
 import SwiftUI
 
 @main
 struct todoAppApp: App {
+    @StateObject private var todoTask =
+        TodoTask()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(todoTask: todoTask )
         }
     }
 }

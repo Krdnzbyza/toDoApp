@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B56E76AC25FF6A920030DF13 /* ToDoTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E76AB25FF6A920030DF13 /* ToDoTask.swift */; };
 		B5FAFDF825FE9210008333C9 /* todoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FAFDF725FE9210008333C9 /* todoAppApp.swift */; };
 		B5FAFDFA25FE9210008333C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FAFDF925FE9210008333C9 /* ContentView.swift */; };
 		B5FAFDFC25FE9212008333C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FAFDFB25FE9212008333C9 /* Assets.xcassets */; };
-		B5FAFDFF25FE9212008333C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FAFDFE25FE9212008333C9 /* Preview Assets.xcassets */; };
+		B5FAFE0925FE9262008333C9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FAFE0825FE9262008333C9 /* DetailView.swift */; };
+		B5FAFE0F25FE9A14008333C9 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FAFE0E25FE9A14008333C9 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B56E76AB25FF6A920030DF13 /* ToDoTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTask.swift; sourceTree = "<group>"; };
 		B5FAFDF425FE9210008333C9 /* todoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FAFDF725FE9210008333C9 /* todoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoAppApp.swift; sourceTree = "<group>"; };
 		B5FAFDF925FE9210008333C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5FAFDFB25FE9212008333C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B5FAFDFE25FE9212008333C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5FAFE0025FE9212008333C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FAFE0825FE9262008333C9 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B5FAFE0E25FE9A14008333C9 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,12 @@
 		B5FAFDF625FE9210008333C9 /* todoApp */ = {
 			isa = PBXGroup;
 			children = (
-				B5FAFDF725FE9210008333C9 /* todoAppApp.swift */,
 				B5FAFDF925FE9210008333C9 /* ContentView.swift */,
+				B5FAFE0E25FE9A14008333C9 /* Task.swift */,
+				B56E76AB25FF6A920030DF13 /* ToDoTask.swift */,
+				B5FAFDF725FE9210008333C9 /* todoAppApp.swift */,
 				B5FAFDFB25FE9212008333C9 /* Assets.xcassets */,
+				B5FAFE0825FE9262008333C9 /* DetailView.swift */,
 				B5FAFE0025FE9212008333C9 /* Info.plist */,
 				B5FAFDFD25FE9212008333C9 /* Preview Content */,
 			);
@@ -64,7 +71,6 @@
 		B5FAFDFD25FE9212008333C9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B5FAFDFE25FE9212008333C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -126,7 +132,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5FAFDFF25FE9212008333C9 /* Preview Assets.xcassets in Resources */,
 				B5FAFDFC25FE9212008333C9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FAFE0F25FE9A14008333C9 /* Task.swift in Sources */,
 				B5FAFDFA25FE9210008333C9 /* ContentView.swift in Sources */,
+				B56E76AC25FF6A920030DF13 /* ToDoTask.swift in Sources */,
+				B5FAFE0925FE9262008333C9 /* DetailView.swift in Sources */,
 				B5FAFDF825FE9210008333C9 /* todoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
